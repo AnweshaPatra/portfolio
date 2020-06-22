@@ -1,0 +1,153 @@
+main>nav {
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+}
+
+.section-nav li.active>a {
+  color: #fff;
+  font-weight: 500;
+  background-color: #11999e;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 7px;
+}
+
+.section-nav a:hover,
+.section-nav a.active {
+  color: #fff;
+  font-weight: 500;
+  background-color: #11999e;
+  padding: 7px;
+  border: 2px solid #f6f6f6;
+  border-radius: 7px;
+}
+
+.section-nav {
+  margin-bottom: 2.5em;
+  border-left: 2px solid #f6f6f6;
+}
+
+.section-nav a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: #323232;
+  transition: all 50ms ease-in-out;
+  background-color: #ddd;
+  padding: 7px;
+  border: 2px solid #f6f6f6;
+  border-radius: 7px;
+}
+
+.card {
+  margin: 2rem;
+}
+
+html,
+body {
+  background-color: #f6f6f6;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section-nav li {
+  margin-left: 1rem;
+  line-height: 2rem;
+}
+
+h1 {
+  font-weight: bold;
+  color: #323232;
+}
+
+h2, h3 {
+  color: #11999e;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 20em;
+  max-width: 100em;
+  width: 90%;
+  margin: 4rem;
+}
+
+section {
+  padding-right: 3em;
+}
+
+#tab-id-4 a {
+  color: #fff;
+  background-color: #11999e;
+  padding: 10px 25px;
+  border: 2px solid #11999e;
+  border-radius: 7px;
+}
+
+#tab-id-4 a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-twitter {
+  background-color: #39A2F2;
+  color: #fff;
+}
+
+.btn-linkedin {
+  background-color: #2877B5;
+  color: #fff;
+}
+
+.btn-mail {
+  background-color: #DB4437;
+  color: #fff;
+}
+
+.btn-github {
+  background-color: #24292E;
+  color: #fff;
+}
+
+.btn-drive {
+  background-color: #FACF48;
+  color: #000;
+}
+
+.btn-twitter:hover {
+  background-color: #39A2F2;
+  color: #fff;
+}
+
+.btn-linkedin:hover {
+  background-color: #2877B5;
+  color: #fff;
+}
+
+.btn-mail:hover {
+  background-color: #DB4437;
+  color: #fff;
+}
+
+.btn-github:hover {
+  background-color: #24292E;
+  color: #fff;
+}
+
+.btn-drive:hover {
+  background-color: #FACF48;
+  color: #000;
+}
